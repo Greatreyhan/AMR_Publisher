@@ -19,12 +19,12 @@ def parse_BNO08X_packet(packet):
         return None  # Checksum doesn't match
     
     BNO08x = {
-        'yaw': (packet[3] << 8) | packet[4],
-        'pitch': (packet[5] << 8) | packet[6],
-        'roll': (packet[7] << 8) | packet[8],
-        'x_acceleration': (packet[9] << 8) | packet[10],
-        'y_acceleration': (packet[11] << 8) | packet[12],
-        'z_acceleration': (packet[13] << 8) | packet[14]
+        'yaw': ((packet[3] << 8) | packet[4]) - 65536 if packet[3] & 0x80 else (packet[3] << 8) | packet[4],
+        'pitch': ((packet[5] << 8) | packet[6]) - 65536 if packet[5] & 0x80 else (packet[5] << 8) | packet[6],
+        'roll': ((packet[7] << 8) | packet[8]) - 65536 if packet[7] & 0x80 else (packet[7] << 8) | packet[8],
+        'x_acceleration': ((packet[9] << 8) | packet[10]) - 65536 if packet[9] & 0x80 else (packet[9] << 8) | packet[10],
+        'y_acceleration': ((packet[11] << 8) | packet[12]) - 65536 if packet[11] & 0x80 else (packet[11] << 8) | packet[12],
+        'z_acceleration': ((packet[13] << 8) | packet[14]) - 65536 if packet[13] & 0x80 else (packet[13] << 8) | packet[14]
     }
 
     print(BNO08x)

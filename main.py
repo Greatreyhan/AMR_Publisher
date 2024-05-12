@@ -3,7 +3,7 @@ import data_parser
 import mqtt_publisher
 
 # Define the serial port and baudrate
-serial_port = 'COM19'  # or 'COM1' for Windows
+serial_port = '/dev/ttyUSB0'  # or 'COM1' for Windows
 baud_rate = 115200
 
 # Create a serial object
@@ -14,7 +14,7 @@ ser = serial.Serial(serial_port,
                      parity='N',
                      stopbits=1)
 
-mqtt_client = mqtt_publisher.connect()
+# mqtt_client = mqtt_publisher.connect()
 
 try:
     while True:
@@ -48,7 +48,7 @@ try:
                 # Convert Data to String
                 parsed_data = "".join("{:02X}".format(byte) for byte in packet)
                 # Send Data to MQTT
-                mqtt_publisher.publish(mqtt_client,parsed_data) 
+                # mqtt_publisher.publish(mqtt_client,parsed_data) 
 
 except KeyboardInterrupt:
     # Close the serial port when Ctrl+C is pressed
