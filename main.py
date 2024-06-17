@@ -15,7 +15,7 @@ ser = serial.Serial(serial_port,
                      parity='N',
                      stopbits=1)
 
-mqtt_client = mqtt_publisher.connect()
+# mqtt_client = mqtt_publisher.connect()
 
 try:
     # mqtt_subscriber.subscribe(mqtt_client,ser)
@@ -50,7 +50,7 @@ try:
                 # Convert Data to String
                 parsed_data = "".join("{:02X}".format(byte) for byte in packet)
                 # Send Data to MQTT
-                mqtt_publisher.publish(mqtt_client,parsed_data) 
+                # mqtt_publisher.publish(mqtt_client,parsed_data) 
                 
 
 except KeyboardInterrupt:
