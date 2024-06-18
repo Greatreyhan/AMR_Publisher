@@ -45,7 +45,9 @@ try:
                 elif(cmd_data == b'\x05'):
                     data_parser.parse_Kinematic_packet(packet)    
                 elif(cmd_data == b'\x06'):
-                    data_parser.parse_DWM_packet(packet)  
+                    data_parser.parse_DWM_packet(packet) 
+                elif(cmd_data == b'\x15'):
+                    data_parser.parse_Odometry_packet(packet)  
 
                 # Convert Data to String
                 parsed_data = "".join("{:02X}".format(byte) for byte in packet)

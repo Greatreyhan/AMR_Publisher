@@ -153,6 +153,38 @@ def parse_DWM_packet(packet):
     
     return DWM_data
 
+# Function to parse Odometry
+def parse_Odometry_packet(packet):
+    if len(packet) != 16:
+        print('Packet length is not correct')
+        return None
+    if packet[0] != 0xA5 or packet[1] != 0x5A:
+        print('Header bytes are not correct')
+        return None
+    if packet[15] != checksum_pc_generator(packet[:15]):
+        print('Checksum is wrong')
+        return None
+    
+    x_pos = ((packet[3] << 8) | packet[4]) - 65536 if packet[3] & 0x80 else (packet[3] << 8) | packet[4]
+    y_pos = ((packet[5] << 8) | packet[6]) - 65536 if packet[5] & 0x80 else (packet[5] << 8) | packet[6]
+    t_pos = ((packet[7] << 8) | packet[8]) - 65536 if packet[7] & 0x80 else (packet[7] << 8) | packet[8]
+    x_vel = ((packet[9] << 8) | packet[10]) - 65536 if packet[9] & 0x80 else (packet[9] << 8) | packet[10]
+    y_vel = ((packet[11] << 8) | packet[12]) - 65536 if packet[11] & 0x80 else (packet[11] << 8) | packet[12]
+    t_vel = ((packet[13] << 8) | packet[14]) - 65536 if packet[13] & 0x80 else (packet[13] << 8) | packet[14]
+    
+    Odometry_data = {
+        'x_pos': x_pos,
+        'y_pos': y_pos,
+        't_pos': t_pos,
+        'x_vel': x_vel,
+        'y_vel': y_vel,
+        't_vel': t_vel,
+    }
+
+    print(Odometry_data)
+    
+    return Odometry_data
+
 def checksum_generator(data):
     checksum = 0
     for byte in data:
