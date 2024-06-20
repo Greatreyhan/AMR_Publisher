@@ -4,7 +4,7 @@ import mqtt_publisher
 import mqtt_subscriber
 
 # Define the serial port and baudrate
-serial_port = '/dev/ttyUSB0'  # or 'COM1' for Windows
+serial_port = '/dev/ttyUSB1'  # or 'COM1' for Windows
 baud_rate = 115200
 
 # Create a serial object
@@ -29,7 +29,7 @@ try:
                 # Reading the command
                 cmd_data = ser.read()
                 # Read the remaining 14 bytes of data
-                data = ser.read(13)
+                data = ser.read(16)
                 # Combine header bytes and data
                 packet = header_byte1 + header_byte2 + cmd_data + data
 

@@ -8,13 +8,13 @@ def checksum_pc_generator(data):
 
 # Function to parse BNO08X data packet
 def parse_BNO08X_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('checksum wrong')
         return None  # Checksum doesn't match
     
@@ -40,13 +40,13 @@ def parse_BNO08X_packet(packet):
 
 # Function to parse Sensor data packet
 def parse_Sensor_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('checksum wrong')
         return None  # Checksum doesn't match
     
@@ -64,29 +64,29 @@ def parse_Sensor_packet(packet):
 
 # Function to parse Ping
 def parse_pc_ping_response_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('checksum wrong')
         return None  # Checksum doesn't match
     
     print("Ping")
 
-    return True if packet[15] == 0 else False
+    return True if packet[18] == 0 else False
 
 # Function to parse Encoder
 def parse_Encoder_Package_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('checksum wrong')
         return None  # Checksum doesn't match
     
@@ -103,13 +103,13 @@ def parse_Encoder_Package_packet(packet):
 
 # Function to parse Kinematic
 def parse_Kinematic_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('Incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('Checksum wrong')
         return None  # Checksum doesn't match
     
@@ -131,13 +131,13 @@ def parse_Kinematic_packet(packet):
 
 # Function to parse DWM
 def parse_DWM_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Packet length is not correct')
         return None
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('Header bytes are not correct')
         return None
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('Checksum is wrong')
         return None
     
@@ -155,13 +155,13 @@ def parse_DWM_packet(packet):
 
 # Function to parse Odometry
 def parse_Odometry_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Packet length is not correct')
         return None
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('Header bytes are not correct')
         return None
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('Checksum is wrong')
         return None
     
