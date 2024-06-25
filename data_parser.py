@@ -161,7 +161,7 @@ def parse_MQTT_Astar(msg,serial):
         print('Message not complete!')
         return None
     
-    length_of_coordinates = int(msg[4:6])
+    length_of_coordinates = int(msg[4:].split('|')[0])
     if((length_of_coordinates>0) and ( msg[-1] == 'F') and (msg[-2] == 'F')):
         coordinates_part = msg[6:-2]
         coordinates_list = coordinates_part.split('|')
@@ -174,7 +174,7 @@ def parse_MQTT_Astar(msg,serial):
             y_coordinates.append(y) 
         end_marker = msg[-2:]
 
-        for inc in range(length_of_coordinates//4):
+        for inc in range(length_of_coordinates//5):
 
             #Header Bytes
             result = [0xA5, 0x5A, 0x13]
@@ -183,7 +183,7 @@ def parse_MQTT_Astar(msg,serial):
             result.append(inc)
             
             # Send Length of the Message
-            result.append((length_of_coordinates//4))
+            result.append((length_of_coordinates//5))
             
             # Send first X
             if(x_coordinates):
@@ -233,17 +233,22 @@ def parse_MQTT_Astar(msg,serial):
             else:
                 result.append(0x00)
 
-            # Send fourth X
+            # Send fifth X
             if(x_coordinates):
                 result.append(x_coordinates[inc+4])
             else:
                 result.append(0x00)
 
-            # Send fourth Y
+            # Send fifth Y
             if(y_coordinates):
                 result.append(y_coordinates[inc+4])
             else:
                 result.append(0x00)
+
+            # Add Null Message
+            result.append(0x00)
+            result.append(0x00)
+            result.append(0x00)
 
             # Add Checksum 
             chksm = checksum_generator(result)
@@ -298,6 +303,45 @@ def parse_MQTT_Coordinate(msg,serial):
         result.append(step)
 
         # Add Null Message
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
+
+        # Add Checksum 
+        chksm = checksum_generator(result)
+        result.append(chksm)
+
+        print(f"Send Data : `{bytearray(result)}`")
+
+        serial.write(bytearray(result))
+
+def send_command(serial,x_speed,y_speed,t_speed):
+
+        #Header Bytes
+        result = [0xA5, 0x5A, 0x12]
+
+        # Get X Speed Data
+        result.append((x_speed >> 8) & 0xFF)
+        result.append(x_speed & 0xFF)
+        
+        # Get Y Speed Data
+        result.append((y_speed >> 8) & 0xFF)
+        result.append(y_speed & 0xFF)
+
+        # Get T Speed Data
+        result.append((t_speed >> 8) & 0xFF)
+        result.append(t_speed & 0xFF)
+
+        # Add Null Message
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
+        result.append(0x00)
         result.append(0x00)
         result.append(0x00)
         result.append(0x00)
