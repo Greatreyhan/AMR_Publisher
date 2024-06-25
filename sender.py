@@ -15,3 +15,4 @@ ser = serial.Serial(serial_port,
 
 while True:
         data_parser.send_command(ser,200,200,200)
+        

@@ -335,6 +335,7 @@ def send_command(serial,x_speed,y_speed,t_speed):
         # Get T Speed Data
         result.append((t_speed >> 8) & 0xFF)
         result.append(t_speed & 0xFF)
+        
 
         # Add Null Message
         result.append(0x00)
