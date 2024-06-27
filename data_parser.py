@@ -56,6 +56,30 @@ def parse_Sensor_packet(packet):
     
     return Sensor
 
+# Function to parse Encoder
+def parse_Sensor_packet(packet):
+    if len(packet) != 19:
+        print('Not long enough')
+        return None  # Packet length is not correct
+    if packet[0] != 0xA5 or packet[1] != 0x5A:
+        print('incorrect header')
+        return None  # Header bytes are not correct
+    if packet[15] != checksum_pc_generator(packet[:15]):
+        print('checksum wrong')
+        return None  # Checksum doesn't match
+    
+    Sensor = {
+        'temperature': (packet[3] << 8) | packet[4],
+        'humidity': (packet[5] << 8) | packet[6],
+        'current': (packet[7] << 8) | packet[8],
+        'voltage': (packet[9] << 8) | packet[10],
+        'loadcell': (packet[11] << 8) | packet[12]
+    }
+
+    print(Sensor)
+    
+    return Sensor
+
 # Function to parse Ping
 def parse_pc_ping_response_packet(packet):
     if len(packet) != 16:
@@ -161,87 +185,99 @@ def parse_MQTT_Astar(msg,serial):
         print('Message not complete!')
         return None
     
+    
     length_of_coordinates = int(msg[4:].split('|')[0])
+    print(msg)
+    
     if((length_of_coordinates>0) and ( msg[-1] == 'F') and (msg[-2] == 'F')):
         coordinates_part = msg[6:-2]
         coordinates_list = coordinates_part.split('|')
-        coordinates = coordinates_list[1:]
+        if(coordinates_list[0] == ''):
+            coordinates = coordinates_list[1:]
+        else:
+            coordinates = coordinates_list
         x_coordinates = []
         y_coordinates = []
         for coord in coordinates:
-            x, y = map(int, coord.split(':'))  # Split the string and convert to integers
+            y,x = map(int, coord.split(':'))  # Split the string and convert to integers
             x_coordinates.append(x) 
             y_coordinates.append(y) 
         end_marker = msg[-2:]
 
+        # Pengiriman paket data 5 koordinat
         for inc in range(length_of_coordinates//5):
 
             #Header Bytes
             result = [0xA5, 0x5A, 0x13]
 
             # Prepare ID Message
-            result.append(inc)
+            # print(inc& 0xFF)
+            result.append(inc & 0xFF)
             
             # Send Length of the Message
-            result.append((length_of_coordinates//5))
-            
+            # print((length_of_coordinates//5) & 0xFF)
+            if(length_of_coordinates%5 > 0):
+                result.append((length_of_coordinates//5+1) & 0xFF)
+            else:
+                result.append((length_of_coordinates//5) & 0xFF)
+
             # Send first X
             if(x_coordinates):
-                result.append(x_coordinates[inc]+1)
+                result.append(x_coordinates[inc*5] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send first Y
             if(y_coordinates):
-                result.append(y_coordinates[inc])
+                result.append(y_coordinates[inc*5] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send second X
             if(x_coordinates):
-                result.append(x_coordinates[inc+1])
+                result.append(x_coordinates[inc*5+1] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send second Y
             if(y_coordinates):
-                result.append(y_coordinates[inc+1])
+                result.append(y_coordinates[inc*5+1] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send third X
             if(x_coordinates):
-                result.append(x_coordinates[inc+2])
+                result.append(x_coordinates[inc*5+2] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send third Y
             if(y_coordinates):
-                result.append(y_coordinates[inc+2])
+                result.append(y_coordinates[inc*5+2] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send fourth X
             if(x_coordinates):
-                result.append(x_coordinates[inc+3])
+                result.append(x_coordinates[inc*5+3] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send fourth Y
             if(y_coordinates):
-                result.append(y_coordinates[inc+3])
+                result.append(y_coordinates[inc*5+3] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send fifth X
             if(x_coordinates):
-                result.append(x_coordinates[inc+4])
+                result.append(x_coordinates[inc*5+4] & 0xFF)
             else:
                 result.append(0x00)
 
             # Send fifth Y
             if(y_coordinates):
-                result.append(y_coordinates[inc+4])
+                result.append(y_coordinates[inc*5+4] & 0xFF)
             else:
                 result.append(0x00)
 
@@ -258,11 +294,133 @@ def parse_MQTT_Astar(msg,serial):
 
             serial.write(bytearray(result))
 
+            time.sleep(2)
+
+        # Pengiriman data sisa
+        #Header Bytes
+        if(length_of_coordinates%5 > 0):
+            result = [0xA5, 0x5A, 0x13]
+
+            # Prepare ID Message
+            # print(inc& 0xFF)
+            result.append((length_of_coordinates//5) & 0xFF)
+            
+            # Send Length of the Message
+            # print((length_of_coordinates//5) & 0xFF)
+            if(length_of_coordinates%5 > 0):
+                result.append((length_of_coordinates//5+1) & 0xFF)
+            else:
+                result.append((length_of_coordinates//5) & 0xFF)
+
+            # Send zero X
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5):
+                    result.append(x_coordinates[(length_of_coordinates//5)*5] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send zero Y
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5):
+                    result.append(y_coordinates[(length_of_coordinates//5)*5] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+            
+            # Send first X
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+1):
+                    result.append(x_coordinates[(length_of_coordinates//5)*5+1] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send first Y
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+1):
+                    result.append(y_coordinates[(length_of_coordinates//5)*5+1] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send second X
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+2):
+                    result.append(x_coordinates[(length_of_coordinates//5)*5+2] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send second Y
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+2):
+                    result.append(y_coordinates[(length_of_coordinates//5)*5+2] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send third X
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+3):
+                    result.append(x_coordinates[(length_of_coordinates//5)*5+3] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send third Y
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+3):
+                    result.append(y_coordinates[(length_of_coordinates//5)*5+3] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send fourth X
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+4):
+                    result.append(x_coordinates[(length_of_coordinates//5)*5+4] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+            # Send fourth Y
+            try:
+                if(length_of_coordinates >(length_of_coordinates//5)*5+4):
+                    result.append(y_coordinates[(length_of_coordinates//5)*5+4] & 0xFF)
+                else:
+                    result.append(0x00)
+            except:
+               result.append(0x00) 
+
+
+            # Add Null Message
+            result.append(0x00)
+            result.append(0x00)
+            result.append(0x00)
+
+            # Add Checksum 
+            chksm = checksum_generator(result)
+            result.append(chksm & 0xFF)
+
+            print(f"Send Data : `{bytearray(result)}`")
+
+            serial.write(bytearray(result))
+
             time.sleep(1)
 
         print("Length of Coordinates:", length_of_coordinates)
         print("Coordinates:", coordinates)
-        print("End Marker:", end_marker)
+        print("Checksum:", chksm)
 
 
 def parse_MQTT_Coordinate(msg,serial):

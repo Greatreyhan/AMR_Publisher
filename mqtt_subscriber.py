@@ -6,7 +6,7 @@ import data_parser
 from paho.mqtt import client as mqtt_client
 
 # Define the serial port and baudrate
-serial_port = '/dev/ttyUSB0'  # or 'COM1' for Windows
+serial_port = '/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A50285BI-if00-port0'  # or 'COM1' for Windows
 baud_rate = 115200
 
 # Create a serial object
@@ -48,9 +48,9 @@ def subscribe(client: mqtt_client, serial):
         msg = input_message.payload.decode()
         print(msg)
         
-        if(msg[:2] == 'AA'):
-            data_parser.parse_MQTT_Coordinate(msg,serial)
-        elif(msg[:4] == 'A55A'):
+        # if(msg[:2] == 'AA'):
+        #     data_parser.parse_MQTT_Coordinate(msg,serial)
+        if(msg[:4] == 'A55A'):
             data_parser.parse_MQTT_Astar(msg,serial)
 
     client.subscribe(topic)
