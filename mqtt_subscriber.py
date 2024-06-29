@@ -1,8 +1,6 @@
-# python 3.11
 import serial
 import random
 import data_parser
-
 from paho.mqtt import client as mqtt_client
 
 # Define the serial port and baudrate
@@ -25,6 +23,8 @@ client_id = f'subscribe-{random.randint(0, 100)}'
 username = 'emqx'
 password = 'public'
 
+# ID variable for Astar
+astar_id = 0
 
 def connect_mqtt() -> mqtt_client:
     def on_connect(client, userdata, flags, rc):
@@ -39,19 +39,20 @@ def connect_mqtt() -> mqtt_client:
     client.connect(broker, port)
     return client
 
-
 def subscribe(client: mqtt_client, serial):
 
     def convert_string_to_bytes(client, userdata, input_message):
+        global astar_id  # Declare astar_id as global to modify it
         print(f"Received `{input_message.payload.decode()}` from `{input_message.topic}` topic")
 
         msg = input_message.payload.decode()
         print(msg)
         
-        # if(msg[:2] == 'AA'):
-        #     data_parser.parse_MQTT_Coordinate(msg,serial)
-        if(msg[:4] == 'A55A'):
-            data_parser.parse_MQTT_Astar(msg,serial)
+        if(msg[:4] == 'AA55'):
+            data_parser.parse_Command(msg,serial)
+        if msg[:4] == 'A55A':
+            data_parser.parse_MQTT_Astar(msg, astar_id, serial)
+            astar_id += 1
 
     client.subscribe(topic)
     client.on_message = convert_string_to_bytes
@@ -63,12 +64,10 @@ def subscribe_default(client: mqtt_client):
     client.subscribe(topic)
     client.on_message = on_message
 
-
 def run():
     client = connect_mqtt()
-    subscribe(client,ser)
+    subscribe(client, ser)
     client.loop_forever()
-
 
 if __name__ == '__main__':
     run()

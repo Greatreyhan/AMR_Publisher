@@ -1,7 +1,5 @@
 import serial
 import data_parser
-import mqtt_publisher
-import mqtt_subscriber
 
 # Define the serial port and baudrate
 serial_port = '/dev/ttyUSB0'  # or 'COM1' for Windows
@@ -29,7 +27,7 @@ try:
                 # Reading the command
                 cmd_data = ser.read()
                 # Read the remaining 14 bytes of data
-                data = ser.read(13)
+                data = ser.read(16)
                 # Combine header bytes and data
                 packet = header_byte1 + header_byte2 + cmd_data + data
 
@@ -39,13 +37,15 @@ try:
                 elif(cmd_data == b'\x02'):
                     data_parser.parse_BNO08X_packet(packet)
                 elif(cmd_data == b'\x03'):
-                    data_parser.parse_Encoder_Package_packet(packet)
+                    data_parser.parse_Encoder(packet)
                 elif(cmd_data == b'\x04'):
                     data_parser.parse_Sensor_packet(packet)
                 elif(cmd_data == b'\x05'):
                     data_parser.parse_Kinematic_packet(packet)    
                 elif(cmd_data == b'\x06'):
-                    data_parser.parse_DWM_packet(packet)  
+                    data_parser.parse_Encoder(packet) 
+                elif(cmd_data == b'\x15'):
+                    data_parser.parse_Odometry_packet(packet)  
 
                 # Convert Data to String
                 parsed_data = "".join("{:02X}".format(byte) for byte in packet)

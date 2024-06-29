@@ -8,7 +8,7 @@ from paho.mqtt import client as mqtt_client
 
 
 # Define the serial port and baudrate
-serial_port = '/dev/ttyUSB0'  # or 'COM1' for Windows
+serial_port = '/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A50285BI-if00-port0'  # or 'COM1' for Windows
 baud_rate = 115200
 
 # Create a serial object
@@ -45,7 +45,6 @@ def connect_mqtt():
 
 def publish(client,message):
     while True:
-        time.sleep(1)
         msg = f"messages: {message}"
         result = client.publish(topic, message)
         # result: [0, 1]
@@ -82,8 +81,8 @@ if __name__ == '__main__':
                 if header_byte2 == b'\x5A':
                     # Reading the command
                     cmd_data = ser.read()
-                    # Read the remaining 14 bytes of data
-                    data = ser.read(13)
+                    # Read the remaining 17 bytes of data
+                    data = ser.read(16)
                     # Combine header bytes and data
                     packet = header_byte1 + header_byte2 + cmd_data + data
 
@@ -118,8 +117,8 @@ if __name__ == '__main__':
                         parsed_data = "".join("{:02X}".format(byte) for byte in packet)
                         # Send Data to MQTT
                         publish(mqtt_client,parsed_data)    
-                    elif(cmd_data == b'\x06'):
-                        data_parser.parse_DWM_packet(packet)
+                    elif(cmd_data == b'\x15'):
+                        data_parser.parse_Odometry_packet(packet)
                         # Convert Data to String
                         parsed_data = "".join("{:02X}".format(byte) for byte in packet)
                         # Send Data to MQTT

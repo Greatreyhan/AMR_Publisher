@@ -9,15 +9,20 @@ def checksum_pc_generator(data):
 
 # Function to parse BNO08X data packet
 def parse_BNO08X_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('checksum wrong')
         return None  # Checksum doesn't match
+    
+    # if(yaw < 0):
+    #     yaw = (2*18000+yaw)/100
+    # else:
+    #     yaw = yaw/100
     
     BNO08x = {
         'yaw': ((packet[3] << 8) | packet[4]) - 65536 if packet[3] & 0x80 else (packet[3] << 8) | packet[4],
@@ -34,37 +39,13 @@ def parse_BNO08X_packet(packet):
 
 # Function to parse Sensor data packet
 def parse_Sensor_packet(packet):
-    if len(packet) != 16:
-        print('Not long enough')
-        return None  # Packet length is not correct
-    if packet[0] != 0xA5 or packet[1] != 0x5A:
-        print('incorrect header')
-        return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
-        print('checksum wrong')
-        return None  # Checksum doesn't match
-    
-    Sensor = {
-        'temperature': (packet[3] << 8) | packet[4],
-        'humidity': (packet[5] << 8) | packet[6],
-        'current': (packet[7] << 8) | packet[8],
-        'voltage': (packet[9] << 8) | packet[10],
-        'loadcell': (packet[11] << 8) | packet[12]
-    }
-
-    print(Sensor)
-    
-    return Sensor
-
-# Function to parse Encoder
-def parse_Sensor_packet(packet):
     if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('checksum wrong')
         return None  # Checksum doesn't match
     
@@ -82,52 +63,56 @@ def parse_Sensor_packet(packet):
 
 # Function to parse Ping
 def parse_pc_ping_response_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('checksum wrong')
         return None  # Checksum doesn't match
     
     print("Ping")
 
-    return True if packet[15] == 0 else False
+    return True if packet[18] == 0 else False
 
 # Function to parse Encoder
-def parse_Encoder_Package_packet(packet):
-    if len(packet) != 16:
+def parse_Encoder(packet):
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
-        print('checksum wrong')
-        return None  # Checksum doesn't match
+    # if packet[18] != checksum_pc_generator(packet[:18]):
+    #     print('checksum wrong')
+    #     return None  # Checksum doesn't match
     
-    Encoder_Package = {
-        'vertical_distance': (packet[3] << 8) | packet[4],
-        'horizontal_distance': (packet[5] << 8) | packet[6],
-        'vertical_speed': (packet[7] << 8) | packet[8],
-        'horizontal_speed': (packet[9] << 8) | packet[10]
+    Sensor = {
+        'S1': ((packet[3] << 8) | packet[4]) - 65536 if packet[3] & 0x80 else (packet[3] << 8) | packet[4],
+        'S2': ((packet[5] << 8) | packet[6]) - 65536 if packet[5] & 0x80 else (packet[5] << 8) | packet[6],
+        'V1': ((packet[7] << 8) | packet[8]) - 65536 if packet[7] & 0x80 else (packet[7] << 8) | packet[8],
+        'V2': ((packet[9] << 8) | packet[10]) - 65536 if packet[9] & 0x80 else (packet[9] << 8) | packet[10],
     }
 
-    print(Encoder_Package)
+    # Log the data to a text file
+    with open('sensor_data.txt', 'a') as file:
+        file.write(f"{Sensor}\n")
+
+    print(Sensor)
     
-    return Encoder_Package
+    return Sensor
 
 # Function to parse Kinematic
 def parse_Kinematic_packet(packet):
-    if len(packet) != 16:
+    if len(packet) != 19:
         print('Not long enough')
         return None  # Packet length is not correct
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('Incorrect header')
         return None  # Header bytes are not correct
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('Checksum wrong')
         return None  # Checksum doesn't match
     
@@ -147,29 +132,37 @@ def parse_Kinematic_packet(packet):
     
     return Kinematic_data
 
-# Function to parse DWM
-def parse_DWM_packet(packet):
-    if len(packet) != 16:
+# Function to parse Odometry
+def parse_Odometry_packet(packet):
+    if len(packet) != 19:
         print('Packet length is not correct')
         return None
     if packet[0] != 0xA5 or packet[1] != 0x5A:
         print('Header bytes are not correct')
         return None
-    if packet[15] != checksum_pc_generator(packet[:15]):
+    if packet[18] != checksum_pc_generator(packet[:18]):
         print('Checksum is wrong')
         return None
     
-    Xpos = (packet[3] << 8) | packet[4]
-    Ypos = (packet[5] << 8) | packet[6]
+    x_pos = ((packet[3] << 8) | packet[4]) - 65536 if packet[3] & 0x80 else (packet[3] << 8) | packet[4]
+    y_pos = ((packet[5] << 8) | packet[6]) - 65536 if packet[5] & 0x80 else (packet[5] << 8) | packet[6]
+    t_pos = ((packet[7] << 8) | packet[8]) - 65536 if packet[7] & 0x80 else (packet[7] << 8) | packet[8]
+    x_vel = ((packet[9] << 8) | packet[10]) - 65536 if packet[9] & 0x80 else (packet[9] << 8) | packet[10]
+    y_vel = ((packet[11] << 8) | packet[12]) - 65536 if packet[11] & 0x80 else (packet[11] << 8) | packet[12]
+    t_vel = ((packet[13] << 8) | packet[14]) - 65536 if packet[13] & 0x80 else (packet[13] << 8) | packet[14]
     
-    DWM_data = {
-        'Xpos': Xpos,
-        'Ypos': Ypos
+    Odometry_data = {
+        'x_pos': x_pos,
+        'y_pos': y_pos,
+        't_pos': t_pos,
+        'x_vel': x_vel,
+        'y_vel': y_vel,
+        't_vel': t_vel,
     }
 
-    print(DWM_data)
+    print(Odometry_data)
     
-    return DWM_data
+    return Odometry_data
 
 def checksum_generator(data):
     checksum = 0
@@ -177,7 +170,7 @@ def checksum_generator(data):
         checksum += byte
     return checksum & 0xFF
 
-def parse_MQTT_Astar(msg,serial):
+def parse_MQTT_Astar(msg,id,serial):
     if msg[:2] != 'A5' or msg[2:4] != '5A':
         print('Header bytes are not correct')
         return None
@@ -282,9 +275,9 @@ def parse_MQTT_Astar(msg,serial):
                 result.append(0x00)
 
             # Add Null Message
-            result.append(0x00)
-            result.append(0x00)
-            result.append(0x00)
+            result.append((length_of_coordinates >> 8) & 0xFF)
+            result.append((length_of_coordinates) & 0xFF)
+            result.append(id)
 
             # Add Checksum 
             chksm = checksum_generator(result)
@@ -404,9 +397,9 @@ def parse_MQTT_Astar(msg,serial):
 
 
             # Add Null Message
-            result.append(0x00)
-            result.append(0x00)
-            result.append(0x00)
+            result.append((length_of_coordinates >> 8) & 0xFF)
+            result.append((length_of_coordinates) & 0xFF)
+            result.append(id)
 
             # Add Checksum 
             chksm = checksum_generator(result)
@@ -423,46 +416,39 @@ def parse_MQTT_Astar(msg,serial):
         print("Checksum:", chksm)
 
 
-def parse_MQTT_Coordinate(msg,serial):
+def parse_Command(msg,serial):
 
         #Header Bytes
         result = [0xA5, 0x5A, 0x12]
 
-        # Check for positive/negative indicator
-        pos_neg_indicator = 0x00 if msg[2] == 'P' else 0x10
-        result.append(pos_neg_indicator)
+        # Get Step Data
+        step_A = int((int(msg[4]) >> 8)& 0xFF)
+        result.append(step_A)
+        step_B = int((int(msg[5]))& 0xFF)
+        result.append(step_B)
         
         # Get X Position Data
-        pos_x = int(msg[3:6])
-        result.append(pos_x)
-
-        # Check for positive/negative indicator
-        pos_neg_indicator = 0x00 if msg[6] == 'P' else 0x10
-        result.append(pos_neg_indicator)
+        pos_xA = int((int(msg[6]) >> 8)& 0xFF)
+        result.append(pos_xA)
+        pos_xB = int((int(msg[7]))& 0xFF)
+        result.append(pos_xB)
 
         # Get Y Position Data
-        pos_y = int(msg[7:10])
-        result.append(pos_y)
-
-        # Check for positive/negative indicator
-        pos_neg_indicator = 0x00 if msg[10] == 'O' else 0x10
-        result.append(pos_neg_indicator)
+        pos_yA = int((int(msg[8]) >> 8)& 0xFF)
+        result.append(pos_yA)
+        pos_yB = int((int(msg[9]))& 0xFF)
+        result.append(pos_yB)
 
          # Get Y Position Data
-        orient = int(msg[11:14])
-        result.append(orient)
+        pos_tA = int((int(msg[10]) >> 8)& 0xFF)
+        result.append(pos_tA)
+        pos_tB = int((int(msg[11]))& 0xFF)
+        result.append(pos_tB)
 
-        # Check for Step
-        pos_neg_indicator = 0x00 if msg[15] == 'S' else 0x73
-        result.append(pos_neg_indicator)
+        # Check for Actuator
+        actuator = int(int(msg[12]))
+        result.append(actuator)
 
-        # Get Step Data
-        step = int(msg[16:19])
-        result.append(step)
-
-        # Add Null Message
-        result.append(0x00)
-        result.append(0x00)
         result.append(0x00)
         result.append(0x00)
         result.append(0x00)
