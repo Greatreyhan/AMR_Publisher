@@ -463,10 +463,14 @@ def parse_Command(msg,serial):
 
         serial.write(bytearray(result))
 
-def send_command(serial,x_speed,y_speed,t_speed):
+def send_command(serial,id_data, x_speed,y_speed,t_speed):
 
         #Header Bytes
         result = [0xA5, 0x5A, 0x12]
+
+        # Get ID Data
+        result.append((id_data >> 8) & 0xFF)
+        result.append(id_data & 0xFF)
 
         # Get X Speed Data
         result.append((x_speed >> 8) & 0xFF)
@@ -480,10 +484,7 @@ def send_command(serial,x_speed,y_speed,t_speed):
         result.append((t_speed >> 8) & 0xFF)
         result.append(t_speed & 0xFF)
         
-
         # Add Null Message
-        result.append(0x00)
-        result.append(0x00)
         result.append(0x00)
         result.append(0x00)
         result.append(0x00)
