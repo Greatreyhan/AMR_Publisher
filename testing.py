@@ -1,5 +1,7 @@
 import serial
-import data_parser
+import testing_parser
+from datetime import datetime
+
 
 # Define the serial port and baudrate
 serial_port = '/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A50285BI-if00-port0'  # or 'COM1' for Windows
@@ -16,6 +18,9 @@ ser = serial.Serial(serial_port,
 # mqtt_client = mqtt_publisher.connect()
 
 try:
+    # Prompt the user for input and read it
+    file_name = input("Enter File Name: ")
+
     # mqtt_subscriber.subscribe(mqtt_client,ser)
     while True:
         # Read until the start of the header (0xA5)
@@ -33,24 +38,28 @@ try:
 
                 # Parsing Data
                 if(cmd_data == b'\x01'):
-                    data_parser.parse_pc_ping_response_packet(packet)
+                    data_parsing = testing_parser.parse_pc_ping_response_packet(packet)
                 elif(cmd_data == b'\x02'):
-                    data_parser.parse_BNO08X_packet(packet)
+                    data_parsing = testing_parser.parse_BNO08X_packet(packet)
                 elif(cmd_data == b'\x03'):
-                    data_parser.parse_Encoder(packet)
+                    data_parsing = testing_parser.parse_Encoder(packet)
                 elif(cmd_data == b'\x04'):
-                    data_parser.parse_Sensor_packet(packet)
+                    data_parsing = testing_parser.parse_Sensor_packet(packet)
                 elif(cmd_data == b'\x05'):
-                    data_parser.parse_Kinematic_packet(packet)    
+                    data_parsing = testing_parser.parse_Kinematic_packet(packet)    
                 elif(cmd_data == b'\x06'):
-                    data_parser.parse_Encoder(packet) 
+                    data_parsing = testing_parser.parse_Encoder(packet) 
                 elif(cmd_data == b'\x15'):
-                    data_parser.parse_Odometry_packet(packet)  
+                    data_parsing = testing_parser.parse_Odometry_packet(packet)  
 
-                # Convert Data to String
-                parsed_data = "".join("{:02X}".format(byte) for byte in packet)
-                # Send Data to MQTT
-                # mqtt_publisher.publish(mqtt_client,parsed_data) 
+                # Get the current time
+                current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                # Log the data to a text file with the current time
+                with open(f'data/{file_name}.txt', 'a') as file:
+                    file.write(f"{current_time} {data_parsing}\n")
+
+                print(f"{current_time} {data_parsing}")
                 
 
 except KeyboardInterrupt:
