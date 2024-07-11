@@ -103,6 +103,38 @@ def parse_Encoder(packet):
     
     return Sensor
 
+def parse_Data(packet):
+    if len(packet) != 19:
+        print('Not long enough')
+        return None  # Packet length is not correct
+    if packet[0] != 0xA5 or packet[1] != 0x5A:
+        print('incorrect header')
+        return None  # Header bytes are not correct
+    # if packet[18] != checksum_pc_generator(packet[:18]):
+    #     print('checksum wrong')
+    #     return None  # Checksum doesn't match
+    
+    Sensor = {
+        'D1': ((packet[3] << 8) | packet[4]) - 65536 if packet[3] & 0x80 else (packet[3] << 8) | packet[4],
+        'D2': ((packet[5] << 8) | packet[6]) - 65536 if packet[5] & 0x80 else (packet[5] << 8) | packet[6],
+        'D3': ((packet[7] << 8) | packet[8]) - 65536 if packet[7] & 0x80 else (packet[7] << 8) | packet[8],
+        'D4': ((packet[9] << 8) | packet[10]) - 65536 if packet[9] & 0x80 else (packet[9] << 8) | packet[10],
+        'D5': ((packet[11] << 8) | packet[12]) - 65536 if packet[11] & 0x80 else (packet[11] << 8) | packet[12],
+        'D6': ((packet[13] << 8) | packet[14]) - 65536 if packet[13] & 0x80 else (packet[13] << 8) | packet[14],    
+        'D7': ((packet[15] << 8) | packet[16]) - 65536 if packet[15] & 0x80 else (packet[15] << 8) | packet[16],
+    }
+
+    # Get the current time
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Log the data to a text file with the current time
+    with open('sensor_data.txt', 'a') as file:
+        file.write(f"{current_time} {Sensor}\n")
+
+    print(f"{current_time} {Sensor}")
+    
+    return Sensor
+
 # Function to parse Kinematic
 def parse_Kinematic_packet(packet):
     if len(packet) != 19:

@@ -1,0 +1,17 @@
+2024-07-07 20:36:34 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1165, 'loadcell': 0}
+2024-07-07 20:36:35 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1172, 'loadcell': 0}
+2024-07-07 20:36:36 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1164, 'loadcell': 0}
+2024-07-07 20:36:37 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1177, 'loadcell': 0}
+2024-07-07 20:36:38 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1173, 'loadcell': 0}
+2024-07-07 20:36:39 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1173, 'loadcell': 0}
+2024-07-07 20:36:40 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1168, 'loadcell': 0}
+2024-07-07 20:36:41 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1173, 'loadcell': 0}
+2024-07-07 20:36:42 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1158, 'loadcell': 0}
+2024-07-07 20:36:43 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1173, 'loadcell': 0}
+2024-07-07 20:36:44 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1173, 'loadcell': 0}
+2024-07-07 20:36:45 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1173, 'loadcell': 0}
+2024-07-07 20:36:46 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1164, 'loadcell': 0}
+2024-07-07 20:36:47 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1192, 'loadcell': 0}
+2024-07-07 20:36:48 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1162, 'loadcell': 0}
+2024-07-07 20:36:49 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1160, 'loadcell': 0}
+2024-07-07 20:36:50 {'temperature': 0, 'humidity': 0, 'current': 0, 'voltage': 1168, 'loadcell': 0}

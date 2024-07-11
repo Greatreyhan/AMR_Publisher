@@ -24,7 +24,7 @@ username = 'emqx'
 password = 'public'
 
 # ID variable for Astar
-astar_id = 0
+astar_id = 1
 
 def connect_mqtt() -> mqtt_client:
     def on_connect(client, userdata, flags, rc):

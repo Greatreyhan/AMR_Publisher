@@ -1,0 +1,28 @@
+import numpy as np
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+# Data
+pwm = np.array([100, 200, 300, 400, 500, 600, 700, 800, 900, 1000])
+rpm_motor1 = np.array([46.59, 97.31, 139.30, 197.96, 245.27, 298.56, 351.85, 396.52, 449.20, 499.76])
+rpm_motor2 = np.array([44.15, 98.07, 145.28, 193.41, 244.00, 293.35, 342.71, 392.06, 441.63, 491.08])
+rpm_motor3 = np.array([43.39, 96.27, 143.79, 189.14, 240.41, 289.18, 337.95, 386.72, 435.45, 484.25])
+rpm_motor4 = np.array([49.41, 97.37, 144.34, 190.04, 246.23, 301.61, 348.37, 393.30, 445.81, 495.69])
+
+# Reshape data
+pwm = pwm.reshape(-1, 1)
+
+# Create and fit linear regression models
+model1 = LinearRegression().fit(pwm, rpm_motor1)
+model2 = LinearRegression().fit(pwm, rpm_motor2)
+model3 = LinearRegression().fit(pwm, rpm_motor3)
+model4 = LinearRegression().fit(pwm, rpm_motor4)
+
+# Get intercepts (offsets)
+offset_motor1 = model1.intercept_
+offset_motor2 = model2.intercept_
+offset_motor3 = model3.intercept_
+offset_motor4 = model4.intercept_
+
+offset_motor1, offset_motor2, offset_motor3, offset_motor4
+

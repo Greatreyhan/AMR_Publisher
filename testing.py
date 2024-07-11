@@ -51,6 +51,8 @@ try:
                     data_parsing = testing_parser.parse_Encoder(packet) 
                 elif(cmd_data == b'\x15'):
                     data_parsing = testing_parser.parse_Odometry_packet(packet)  
+                elif(cmd_data == b'\x55'):
+                    data_parsing = testing_parser.parse_Data(packet)  
 
                 # Get the current time
                 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

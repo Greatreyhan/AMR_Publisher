@@ -438,7 +438,7 @@ def parse_Command(msg,serial):
         pos_yB = int((int(msg[9]))& 0xFF)
         result.append(pos_yB)
 
-         # Get Y Position Data
+         # Get T Position Data
         pos_tA = int((int(msg[10]) >> 8)& 0xFF)
         result.append(pos_tA)
         pos_tB = int((int(msg[11]))& 0xFF)
