@@ -3,6 +3,7 @@ import random
 import time
 import serial
 import data_parser
+from datetime import datetime
 
 from paho.mqtt import client as mqtt_client
 
@@ -72,6 +73,7 @@ if __name__ == '__main__':
 
     try:
         # mqtt_subscriber.subscribe(mqtt_client,ser)
+        file_name = input("enter file name")
         while True:
             # Read until the start of the header (0xA5)
             header_byte1 = ser.read()
@@ -94,17 +96,23 @@ if __name__ == '__main__':
                         # Send Data to MQTT
                         publish(mqtt_client,parsed_data) 
                     elif(cmd_data == b'\x02'):
-                        data_parser.parse_BNO08X_packet(packet)
+                        data_parsed =data_parser.parse_BNO08X_packet(packet)
                         # Convert Data to String
                         parsed_data = "".join("{:02X}".format(byte) for byte in packet)
+                        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                        # Log the data to a text file with the current time
+                        with open(f'data/{file_name}.txt', 'a') as file:
+                            file.write(f"{current_time} {data_parsed}\n")
                         # Send Data to MQTT
                         publish(mqtt_client,parsed_data)
                     elif(cmd_data == b'\x03'):
-                        data_parser.parse_Encoder_Package_packet(packet)
+                        data_parsed = data_parser.parse_Encoder_Package_packet(packet)
+
                         # Convert Data to String
                         parsed_data = "".join("{:02X}".format(byte) for byte in packet)
                         # Send Data to MQTT
-                        publish(mqtt_client,parsed_data)
+                        publish(mqtt_client,data_parsed)
                     elif(cmd_data == b'\x04'):
                         data_parser.parse_Sensor_packet(packet)
                         # Convert Data to String
@@ -118,10 +126,17 @@ if __name__ == '__main__':
                         # Send Data to MQTT
                         publish(mqtt_client,parsed_data)    
                     elif(cmd_data == b'\x15'):
-                        data_parser.parse_Odometry_packet(packet)
+                        data_parsed = data_parser.parse_Odometry_packet(packet)
                         # Convert Data to String
                         parsed_data = "".join("{:02X}".format(byte) for byte in packet)
                         # Send Data to MQTT
+                        # Get the current time
+                        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                        # Log the data to a text file with the current time
+                        with open(f'data/{file_name}.txt', 'a') as file:
+                            file.write(f"{current_time} {data_parsed}\n")
+
                         publish(mqtt_client,parsed_data)  
 
                     

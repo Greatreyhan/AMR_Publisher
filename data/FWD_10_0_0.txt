@@ -1,0 +1,737 @@
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 0, 'roll': 0, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': 0}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 0, 'roll': 0, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': 0}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 0, 'roll': 0, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': 0}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 0, 'roll': 0, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': 0}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 0, 'roll': 0, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': 0}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 0, 'roll': 0, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': 0}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 0, 'roll': 0, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': 0}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:35 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:35 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:36 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:36 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -4}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}
+2024-07-12 20:06:37 {'yaw': 0, 'pitch': 20, 'roll': 33, 'x_acceleration': 0, 'y_acceleration': 0, 'z_acceleration': -5}
+2024-07-12 20:06:37 {'D1': 7, 'D2': -3, 'D3': 63, 'D4': -8, 'D5': 8, 'D6': 91, 'D7': -3}

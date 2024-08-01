@@ -180,6 +180,7 @@ def parse_MQTT_Astar(msg,id,serial):
     
     length_of_coordinates = int(msg[4:].split('|')[0])
     print(msg)
+    print(id)
     
     if((length_of_coordinates>0) and ( msg[-1] == 'F') and (msg[-2] == 'F')):
         coordinates_part = msg[6:-2]
@@ -408,7 +409,7 @@ def parse_MQTT_Astar(msg,id,serial):
 
             serial.write(bytearray(result))
 
-            time.sleep(1)
+            # time.sleep(1)
 
         print("Length of Coordinates:", length_of_coordinates)
         print("Coordinates:", coordinates)
